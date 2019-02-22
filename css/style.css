@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(251, 180, 210);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+footer {
+    font: bradleyhand; 
+    color: whitesmoke
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(245, 131, 183);
+    /*menu bar background color*/
+}
+
+.nav a {
+    display: flex;
+  justify-content:center;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 18px;
+  /*menu bar text color*/          
+}
+
+.nav a:hover {
+    background-color: rgb(251, 187, 214);
+    color: black;
+     /*change background color when hovered over*/ 
+}
+
+.nav a.active {
+    background-color: rgb(251, 202, 224);
+    color: white;
+     /*current page box color*/ 
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(251, 180, 210);
+    
+}
