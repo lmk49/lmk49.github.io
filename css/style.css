@@ -13,46 +13,82 @@ p {
 }
 
 
-footer {
-    font: bradleyhand; 
-    color: whitesmoke
-}
-
 .nav {
-    overflow: hidden;
-    background-color: rgb(245, 131, 183);
-    /*menu bar background color*/
+  overflow: hidden;
+  background-color: rgb(245, 131, 183);
+  /*menu bar background color*/
 }
 
 .nav a {
-    display: flex;
+  display: flex;
   justify-content:center;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 25px;
-    text-decoration: none;
-    font-size: 18px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  font-size: 18px;
   /*menu bar text color*/          
 }
 
 .nav a:hover {
-    background-color: rgb(251, 187, 214);
-    color: black;
-     /*change background color when hovered over*/ 
+  background-color: rgb(251, 187, 214);
+  color: white;
+  transform: scale(1.1);
+  /*change background color when hovered over*/ 
 }
 
 .nav a.active {
-    background-color: rgb(251, 202, 224);
-    color: white;
-     /*current page box color*/ 
+  background-color: rgb(251, 202, 224);
+  color: white;
+  /*current page box color*/ 
 }
 
 .footer {
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(251, 180, 210);
-    
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(251, 180, 210);
+}
+
+.background {
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../pics/flower.png");
+  background-repeat: repeat;
+}
+
+#textbox {
+    margin: 0px 900px 0px 900px;
+    padding-bottom: 100%;
+    background-color: white;
+    color: black;
+}
+
+.h1 {
+    color: black;
+}
+
+.text {
+    font-family: "Bradley Hand", cursive;
+    margin: 10px;  
+}
+
+@media only screen and (max-width: 2000px) {
+  .textbox {
+    margin: 0px 350px 0px 350px;
+      border: 1px solid black;
+  }
+    .p {
+        font-size: 5px;
+    }
+}
+
+.list {
+  font-family: "Bradley Hand", cursive;
 }
