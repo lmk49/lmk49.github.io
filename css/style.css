@@ -99,6 +99,7 @@ p {
   font-size: 10px;
   color: rgb(47, 49, 54);
 }
+/*text*/
 
 .avatar {
   vertical-align: middle;
@@ -114,7 +115,9 @@ p {
   text-align: center;
   padding: 5px;
 }
+/*text*/
 
+/*ids and classes for various imgs*/
 #school {
   width: 150px;
   height: 150px; 
@@ -160,6 +163,8 @@ p {
   width: 17%;
   height: 17%;  
 }
+/*ids and classes for various imgs*/
+
 
 /*lyla kramer:css(design/layout)*/
 /*credit to site for help: https://learn.shayhowe.com/html-css/*/
