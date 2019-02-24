@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #383737;
   text-align: center;
 }
 
@@ -111,7 +111,7 @@ p {
 }
 
 .intro {
-  color: white;
+  color: #383737;
   text-align: center;
   padding: 5px;
 }
