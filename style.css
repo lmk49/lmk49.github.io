@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(251, 180, 210);
+}
+
+h1 {
+    color: #383737;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(245, 131, 183);
+    /*menu bar background color*/
+}
+
+.nav a {
+    display: flex;
+    justify-content: center;
+    float: left;
+    color: rgb(47, 49, 54);
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 24px;
+    /*menu bar text color*/
+}
+
+.nav a:hover {
+    background-color: rgb(251, 187, 214);
+    color: rgb(47, 49, 54);
+    transform: scale(1.1);
+    /*change background color of menu when hovered over and incr size*/
+}
+
+.nav a.active {
+    background-color: rgb(251, 202, 224);
+    color: rgb(47, 49, 54);
+    /*current menu page box color*/
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(251, 180, 210);
+    /*city pic on homepage*/
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../pics/flower.png");
+    background-repeat: repeat;
+    /*background img on about me*/
+}
+
+#textbox {
+    margin: 0px 900px 0px 910px;
+    padding-bottom: 50%;
+    background-color: white;
+    color: rgb(47, 49, 54);
+    /*text box in about me*/
+}
+
+.h1 {
+    color: rgb(47, 49, 54);
+    padding-top: 10px;
+}
+
+.text {
+    font-family: "Bradley Hand", cursive;
+    margin: 15px;
+    color: rgb(47, 49, 54);
+}
+
+@media only screen and (max-width: 2000px) {
+    .textbox {
+        margin: 0px 350px 0px 350px;
+        border: 1px solid black;
+    }
+
+    .p {
+        font-size: 5px;
+    }
+
+    /*change size on diff screens*/
+}
+
+.list {
+    font-family: "Bradley Hand", cursive;
+    font-size: 10px;
+    color: rgb(47, 49, 54);
+}
+
+
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    padding: 20px 0px 0px 10px;
+    float: left;
+    /*pic on homepage*/
+}
+
+.intro {
+    color: #383737;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*ids and classes for various imgs*/
+#school {
+    width: 150px;
+    height: 150px;
+}
+
+#twitter {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+#las {
+    width: 30%;
+    height: 30%;
+}
+
+#fcr {
+    width: 45%;
+    height: 45%;
+}
+
+.twitch {
+    width: 150px;
+    height: 150px;
+}
+
+.email {
+    width: 100px;
+    height: 100px;
+}
+
+#git {
+    width: 5%;
+    height: 5%;
+}
+
+#scratch {
+    width: 15%;
+    height: 15%;
+}
+
+#code {
+    width: 17%;
+    height: 17%;
+}
+
+
+/*lyla kramer:css(design/layout)
+credit to sites for help:
+- https://learn.shayhowe.com/html-css/
+- https://www.w3schools.com/
+- https://www.codecademy.com/learn */
