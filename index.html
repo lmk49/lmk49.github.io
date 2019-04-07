@@ -1,74 +1,87 @@
 <!doctype html>
 
 <html lang="en">
-   
+
 <head>
-  <meta charset=utf-8>
-    
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!--css-->
-    
-  <link rel="icon" type="image/gif" href="pics/pink.png"/>
-  <!--favicon-->
-    
-  <title>Welcome</title>   
+    <meta charset=utf-8>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--css-->
+
+    <link rel="icon" type="image/gif" href="pics/pink.png" />
+    <!--favicon-->
+
+    <script>
+        var bleep = new Audio();
+        bleep.src = "click.mp4"
+
+    </script>
+
+    <title>Welcome</title>
 </head>
 
 <body>
-<div class="nav">  
-  <a class="active" href="index.html">Home</a>
-    
-  <a href="aboutme.html">About Me</a>  
-    
-  <a href="contact.html">Contact Information</a>   
-    
-  <a href="connect.html">Get Connected</a>
-</div>
-<!--menu bar-->
-   
-<div class="footer"> 
-  <img src="pics/city.jpg" alt="pink city">
-</div>
-<!--city footer-->
-       
-<img src="pics/pfp.jpg" alt="my avatar" class="avatar">
-<!--avatar pic-->
-    
-<h1>Introduction</h1>
+    <div class="nav">
+        <a class="active" href="index.html" onmousedown="bleep.play()">Home</a>
 
-<div class="intro">
-  <p>
-Hello! My name is Lyla Kramer and I am 19 years old. I moved from Ohio down to Florida in 2018 to attend college at Florida Gulf Coast University. During my highschool career I was able to graduate with an Honors Diploma and as a Magna Cum Laude. My academic performance during high school allowed me to receive the Blue and Green Director's Award to help aid me in pursuing my studies at FGCU. I am currently in my first year at FGCU and plan to get my Bachelor’s degree in Software Engineering. My goal is to be able to work on with video games after I graduate since they are something I am very passionate about. 
-This website is my portfolio, check around for more information about me!
-  </p>
-</div>
+        <a href="aboutme.html" onmousedown="bleep.play()">About Me</a>
 
-<div class="intro">  
-  <p>Here are some academic links: </p> 
+        <a href="contact.html" onmousedown="bleep.play()">Contact Information</a>
 
-<a href="https://www.fgcu.edu/eng/softwareengineering/">
-  <img src="pics/fgcu.png" alt="fgcu link" id="school">
-</a> 
-    
-<a href="https://github.com/lmk49"> 
-  <img src="pics/github.png" id="git" alt="github">
-</a> 
-    
-<a href="https://scratch.mit.edu/projects/284034849/"> 
-  <img src="pics/scratch.png" id="scratch" alt="scratch project">
-</a>   
+        <a href="connect.html" onmousedown="bleep.play()">Get Connected</a>
+    </div>
+    <!--menu bar-->
 
-<a href="https://www.codecademy.com/users/lylakramer/achievements"> 
-  <img src="pics/code.png" id="code" alt="code cademy">
-</a>      
-</div> 
-<!--links to sites-->      
+    <div class="footer">
+        <img src="pics/city.jpg" alt="pink city">
+    </div>
+    <!--city footer-->
 
+    <img src="pics/pfp.jpg" alt="my avatar" class="avatar">
+    <!--avatar pic-->
+
+    <h1>Introduction</h1>
+
+    <div class="intro">
+        <p>
+            Hello! My name is Lyla Kramer and I am 19 years old. I moved from Ohio down to Florida in 2018 to attend college at Florida Gulf Coast University. During my highschool career I was able to graduate with an Honors Diploma and as a Magna Cum Laude. My academic performance during high school allowed me to receive the Blue and Green Director's Award to help aid me in pursuing my studies at FGCU. I am currently in my first year at FGCU and plan to get my Bachelor’s degree in Software Engineering. My goal is to be able to work on with video games after I graduate since they are something I am very passionate about.
+            This website is my portfolio, check around for more information about me!
+        </p>
+    </div>
+
+    <canvas id="myCanvas" width="410" height="70" style="border:1px solid #383737;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "25px Verdana";
+        ctx.fillText("Here are some important links:", 10, 45);
+
+    </script>
+
+    <a href="https://www.fgcu.edu/eng/softwareengineering/">
+        <img src="pics/fgcu.png" alt="fgcu link" id="school">
+    </a>
+
+    <a href="https://github.com/lmk49">
+        <img src="pics/github.png" id="git" alt="github">
+    </a>
+
+    <a href="https://scratch.mit.edu/projects/284034849/">
+        <img src="pics/scratch.png" id="scratch" alt="scratch project">
+    </a>
+
+    <a href="https://www.codecademy.com/users/lylakramer/achievements">
+        <img src="pics/code.png" id="code" alt="code cademy">
+    </a>
+    <!--links to sites-->
 </body>
+
 </html>
 
 
-<!--lyla kramer:home page-->
-<!--credit to site for help: https://learn.shayhowe.com/html-css/-->
-<!--credit to site for help: https://www.w3schools.com/-->
-<!--credit to site for help: https://www.codecademy.com/learn-->
+<!--lyla kramer:home page
+- https://learn.shayhowe.com/html-css/
+- https://www.w3schools.com/
+- https://www.codecademy.com/learn -->
