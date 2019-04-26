@@ -14,7 +14,6 @@
     <script>
         var bleep = new Audio();
         bleep.src = "click.mp4"
-
     </script>
 
     <title>Welcome</title>
@@ -22,20 +21,15 @@
 
 <body>
     <div class="nav">
-        <a class="active" href="index.html" onmousedown="bleep.play()">Home</a>
+        <a class="active" href="index.html">Home</a>
 
-        <a href="aboutme.html" onmousedown="bleep.play()">About Me</a>
+        <a href="aboutme.html">About Me</a>
 
-        <a href="contact.html" onmousedown="bleep.play()">Contact Information</a>
+        <a href="contact.html">Contact Information</a>
 
-        <a href="connect.html" onmousedown="bleep.play()">Get Connected</a>
+        <a href="connect.html">More Info</a>
     </div>
     <!--menu bar-->
-
-    <div class="footer">
-        <img src="pics/city.jpg" alt="pink city">
-    </div>
-    <!--city footer-->
 
     <img src="pics/pfp.jpg" alt="my avatar" class="avatar">
     <!--avatar pic-->
@@ -44,7 +38,7 @@
 
     <div class="intro">
         <p>
-            Hello! My name is Lyla Kramer and I am 19 years old. I moved from Ohio down to Florida in 2018 to attend college at Florida Gulf Coast University. During my highschool career I was able to graduate with an Honors Diploma and as a Magna Cum Laude. My academic performance during high school allowed me to receive the Blue and Green Director's Award to help aid me in pursuing my studies at FGCU. I am currently in my first year at FGCU and plan to get my Bachelor’s degree in Software Engineering. My goal is to be able to work on with video games after I graduate since they are something I am very passionate about.
+            Hello! My name is Lyla Kramer and I am 19 years old. I moved from Ohio down to Florida in 2018 to attend college at Florida Gulf Coast University. During my high school career I was able to graduate with an Honors Diploma and as a Magna Cum Laude. My academic performance during high school allowed me to receive the Blue and Green Director's Award to help aid me in pursuing my studies at FGCU. I am currently in my first year at FGCU and plan to get my Bachelor’s degree in Software Engineering. My goal is to be able to work on with video games after I graduate since they are something I am very passionate about.
             This website is my portfolio, check around for more information about me!
         </p>
     </div>
@@ -56,8 +50,7 @@
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
         ctx.font = "25px Verdana";
-        ctx.fillText("Here are some important links:", 10, 45);
-
+        ctx.fillText("Here are some additional links:", 10, 45);
     </script>
 
     <a href="https://www.fgcu.edu/eng/softwareengineering/">
@@ -78,7 +71,10 @@
     <!--links to sites-->
 </body>
 
-</html>
+<div class="footer">
+    <img src="pics/city.jpg" alt="pink city">
+</div>
+<!--city footer--></html>
 
 
 <!--lyla kramer:home page
